@@ -1,0 +1,29 @@
+{
+  "name": "batch-async-request",
+  "version": "0.1.0",
+  "description": "批量进行异步请求，整合try catch捕获异常能力，使冗余的操作变的简单",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "异步",
+    "错误",
+    "嵌套请求",
+    "await",
+    "async",
+    "async-error",
+    "tool"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PENTONCOS/batch-async-request.git"
+  },
+  "author": "jiapandong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PENTONCOS/batch-async-request/issues"
+  },
+  "homepage": "https://github.com/PENTONCOS/batch-async-request#readme"
+}
