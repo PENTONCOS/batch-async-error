@@ -1,5 +1,5 @@
 {
-  "name": "batch-async-request",
+  "name": "batch-async-error",
   "version": "0.1.0",
   "description": "批量进行异步请求，整合try catch捕获异常能力，使冗余的操作变的简单",
   "type": "module",
@@ -18,12 +18,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PENTONCOS/batch-async-request.git"
+    "url": "git+https://github.com/PENTONCOS/batch-async-error.git"
   },
   "author": "jiapandong",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PENTONCOS/batch-async-request/issues"
+    "url": "https://github.com/PENTONCOS/batch-async-error/issues"
   },
-  "homepage": "https://github.com/PENTONCOS/batch-async-request#readme"
+  "homepage": "https://github.com/PENTONCOS/batch-async-error#readme"
 }
