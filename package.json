@@ -1,6 +1,6 @@
 {
   "name": "batch-async-error",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "批量进行异步请求，整合try catch捕获异常能力，使冗余的操作变的简单",
   "type": "module",
   "main": "index.js",
