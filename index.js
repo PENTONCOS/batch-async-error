@@ -1,11 +1,11 @@
-const batchAsyncRequest = (tasks) => {
+const batchAsyncError = (tasks) => {
   const action = {
     step: null, // 生成器执行节点
     finishFn: null, // 结束请求时的函数
     times: 0, // 执行次数
     data: { // 最终返回的数据
       result: [], // 储存的结果
-      status: null, // 返回的状态
+      status: false, // 是否全部成功返回
     }
   }
 
@@ -32,6 +32,7 @@ const batchAsyncRequest = (tasks) => {
         yield catchAwait(tasks[action.times++]);
       }
       // 全部请求成功时，返回数据
+      action.data.status = true;
       finishFn(data);
     })();
 
@@ -43,4 +44,4 @@ const batchAsyncRequest = (tasks) => {
   return new Promise(resolve => handler(resolve));
 }
 
-export default batchAsyncRequest;
+export default batchAsyncError;
